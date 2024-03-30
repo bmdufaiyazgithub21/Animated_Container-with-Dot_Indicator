@@ -20,7 +20,8 @@ class _AnimatedContainerAppState extends State<AnimatedContainerApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('GeeksForGeeks'),
+          centerTitle: true,
+          title: Text('Random Container Generator'),
           backgroundColor: Colors.green,
         ),
         body: Center(
